@@ -1,0 +1,79 @@
+/* Code made with help from the template given */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:200i,400&display=swap');
+
+/*body */
+
+a { 
+  color: #F2E5FF; 
+  } 
+
+body {
+  color: #0F0B30;
+  background: #C3CFFF;
+  font-family: Lato;
+  text-decoration: none;  
+  background-color: #C3CFFF;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: #C3CFFF;
+  }
+}
+
+
+/* nav */
+
+.nav { 
+  font-family: 'Lato', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 800;
+  line-height: 1.3;
+  color: var(--color-white);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #8D6CC5;
+  box-shadow: 0 0px 0 rgba(0, 0, 0, 0.4);
+  padding-top: 15px;
+  padding-bottom: 15px;    
+}
+
+.nav-ul li
+{
+  list-style-type: none;
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;  
+}
+
+/* Welcome section */
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  width: 100%;
+  background-color: #0f0b30;
+  margin-top: 50px;
+  height: 100vh;
+}
+
+.welcome-section > h1 {
+  font-size: 80px;  
+  padding-top: 160px;
+  padding-bottom: 160px;  
+  text-align: center;
+  color: #f5f7ff;   
+}
+
+.about-section {
+  text-align: center;
+}
+
+.projects-section {
+  text-align: center;
+}
